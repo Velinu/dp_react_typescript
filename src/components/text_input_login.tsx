@@ -7,13 +7,16 @@ interface TextInputProps{
     mask: string
     type: string
     value?: string
-    onChange?: React.ChangeEventHandler<HTMLInputElement>    
+    onChange?: React.ChangeEventHandler<HTMLInputElement>   
+    id? : string 
 }
 
 const Text_input_login : React.FC<TextInputProps> = (props) => {
     return(
         <>
-        <InputMask type={props.type} 
+        <InputMask 
+        id={props.id}
+        type={props.type} 
         mask={props.mask} 
         placeholder={props.placeholder} 
         value={props.value} onChange={props.onChange}></InputMask>

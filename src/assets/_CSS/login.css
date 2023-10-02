@@ -11,7 +11,7 @@
 }
 
 #logo-display{
-    background-color: black;
+    background-color: #3498DB;
     width: 50%;
     height: 100%;
 }
@@ -25,6 +25,7 @@
 }
 #title{
     font-size: 3em;
+    margin-bottom: 10vh;
 }
 form{
     width: 100%;
@@ -32,4 +33,51 @@ form{
     flex-direction: column;
     align-items: center;
 }
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.checkbox-container{
+    width: 61.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.checkbox-container label{
+    font-size: 1em;
+}
+
+#check-box{
+    width: 2vw;
+    height: 2vh;
+}
+
+a{
+    color: #3498DB;
+}
+
+#enviar-forms{
+    height: 10vh;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498DB;
+    color: white;
+}
+
+#enviar-forms:hover{
+    cursor: pointer;
+    box-shadow: 0 0 15px #3498DB;
+}
+
+
+
+
 

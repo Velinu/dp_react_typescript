@@ -7,8 +7,12 @@ import Login from './routes/login.tsx'
 
 const router = createBrowserRouter([
   {
-    path: "/login",
+    path: "/",
     element: <Login/>
+  },
+  {
+    path: "/home",
+    element: <App/>
   }
 ])
 
