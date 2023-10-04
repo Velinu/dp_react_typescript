@@ -1,4 +1,4 @@
-import React, { ChangeEventHandler } from "react";
+import React from "react";
 import "../assets/_CSS/textInput.css" 
 import InputMask from 'react-input-mask';
 
