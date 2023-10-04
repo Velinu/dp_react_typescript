@@ -48,6 +48,7 @@ const login = () =>{
                 </form>
             </div>
             <div id="logo-display">
+                <img src="src\assets\logo.png"/>
             </div>
         </div>
     )
